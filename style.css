@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    width: 90% ;
+    height: 400px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.half-width img{
+    width: 70%;
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+    
+}
+
+span{
+    color: cornflowerblue;
+}
+
+.top-title{
+    border-width: 10%;
+    border-style: auto;
+    border-left: 10px solid;
+    border-color: rgb(205, 162, 240);
+    border-image-slice: 1;
+}
+.heading{
+    padding-left: 2%;
+}
+
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(10, 68, 226), rgb(26, 163, 187));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.first-banner{
+    display: flex;
+}
+
+#middle-title{
+    text-align: center;
+}
+.first-banner{
+    display: flex;
+
+}
+
+.middle-width{
+    width: 80%;
+    height: 20%;
+    margin: 5%;
+    padding-block: 5%;
+}
+.middle-width img{
+    width: 60%;
+    height: 60%;
+}
+
+#mission{
+    display: block;
+    border-radius: 10%;
+    background-color: wheat;
+}
+#vission{
+    display: block;
+    border-radius: 10%;
+    background-color: azure;
+}
+#goals{
+    display: block;
+    border-radius: 10%;
+    background-color: bisque;
+}
+
+.second-banner{
+    padding-top: 10%;
+    
+}
+
+.third-banner{
+    text-align: center;
+    margin-top: 10%;
+}
+
+footer{
+    display: block;
+    background-color: slategray;
+    text-align: center;
+}
